@@ -1,0 +1,1 @@
+# legados-colector-server
