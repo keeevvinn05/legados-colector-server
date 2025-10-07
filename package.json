@@ -1,0 +1,25 @@
+{
+  "name": "legados-collector-server",
+  "author": {
+    "name": "Kevin Barroso",
+    "email": "barrosok526@gmail.com"
+  },
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node main.js | pino-pretty"
+  },
+  "dependencies": {
+    "fastify": "^5.6.1",
+    "http-status-codes": "^2.3.0",
+    "@akashrajpurohit/snowflake-id": "^2.0.0",
+    "is": "^3.3.2",
+    "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^13.1.1"
+  }
+}
