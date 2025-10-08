@@ -48,7 +48,7 @@ function createServer(cfg) {
   server.post("/user", opts, endpoints.createUser);
   server.get("/user/:rid", opts, endpoints.readUser);
   server.get("/products", opts, endpoints.readProducts);
-  server.post("/product", opts, endpoints.createProduct);
+  server.post("/products", opts, endpoints.createProducts);
   server.get("/product/:rid", opts, endpoints.readProduct);
 
   return server;
