@@ -50,6 +50,9 @@ function createServer(cfg) {
   server.get("/products", opts, endpoints.readProducts);
   server.post("/products", opts, endpoints.createProducts);
   server.get("/product/:rid", opts, endpoints.readProduct);
+  server.get("/orders", opts, endpoints.readOrders);
+  server.post("/order", opts, endpoints.createOrders);
+  server.get("/order/:rid", opts, endpoints.readOrder);
 
   return server;
 }
